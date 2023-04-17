@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_03(HTML+CSS)/assets/bg.png?raw=true");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#left{
+    display: flex;
+    flex-direction: row;
+}
+
+#vertical{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5rem;
+    width: 2px;
+    background: white;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: #000;
+}
+
+#logodiv{
+    padding: 0.5em;
+}
+
+#navbar div{
+    margin: 0.5rem;
+}
+
+#navdiv>ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+#navdiv>ul>li{
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#logodiv{
+    margin-left: 6rem;
+}
+
+#navdiv{
+    margin-left: -30rem;
+    display: flex;
+    justify-content: center;
+}
+
+#middle{
+    text-align: center;
+    justify-content: center;
+}
+
+#largetext{
+    font-size: 5rem;
+    color: #fff;
+    margin-top: 8rem;
+}
+
+#smalltext{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+#navbutton{
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#navbutton>button{
+    background: #b90ec5;
+    color: #fefdfe;
+    border: none;
+    height: 3rem;
+    width: 10rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    
+}
+
+#middlesectionbutton{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#middlesectionbutton button{
+    background: #b90ec5;
+    color: #fefdfe;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+
+
